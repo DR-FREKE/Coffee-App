@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Just Java</string>
+    <string name="whipped_cream" translatable="false">Crema batida</string>
+    <string name="chocolate" translatable="false">Chocolate</string>
+    <string name="credentials" translatable="false">Cartas credenciales</string>
+    <string name="quantity" translatable="false">cantidad</string>
+    <string name="toppings">ingredientes</string>
+    <string name="total_0">Total: 0</string>
+    <string name="order_summary">Order resumen</string>
+    <string name="have_a_nice_day">Que tengas un buen dia</string>
+    <string name="enter_name">ingrese su nombre</string>
+    <string name="person_name">"Nombre: "<xliff:g id = "name" example="Solomon">%s</xliff:g></string>
+    <string name="_2">2</string>
+</resources>

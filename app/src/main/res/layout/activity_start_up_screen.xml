@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start_up_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.justjava.StartUpScreen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/adidas"
+        android:scaleType="centerCrop"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:paddingTop="56dp"
+            android:id="@+id/myLinear">
+
+            <TextView
+                android:id="@+id/steller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TUBS"
+                android:textSize="36dp"
+                android:textAllCaps="true"
+                android:layout_marginBottom="0dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Everybody get GIST to tell"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="200dp"
+                android:textAppearance="?android:textAppearanceMedium" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="74dp"
+                android:layout_marginBottom="4dp"
+                android:padding="14dp"
+                android:text="Login to continue"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:background="@drawable/designs"/>
+            <android.support.v7.widget.AppCompatButton
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="24dp"
+                android:padding="14dp"
+                android:text="Sing up with ADIOS"
+                android:textColor="@android:color/white"
+                android:gravity="left"
+                android:background="@drawable/designs"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
